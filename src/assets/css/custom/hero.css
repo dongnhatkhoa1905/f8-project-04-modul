@@ -1,0 +1,146 @@
+/* hero */
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    gap: 120.51px;
+    margin-top: 74px;
+}
+
+.hero__img-wrap {
+    position: relative;
+    width: 388px;
+    height: 488px;
+    background: #fe997b;
+    border-radius: 16px;
+    border: 2px solid #fff;
+}
+
+.hero__img {
+    z-index: 0;
+}
+
+.hero__media {
+    display: flex;
+}
+
+.hero__decor-right {
+    position: absolute;
+    top: 16.66px;
+    left: 377.15px;
+}
+
+.hero__decor-left {
+    position: absolute;
+    bottom: 9.53px;
+    left: -57.99px;
+}
+
+.hero__decor {
+    z-index: -1;
+}
+
+.hero__img-wrap-right {
+    position: relative;
+    align-self: flex-end;
+    margin: 0 0 -58px -24px;
+    width: 186px;
+    height: 244px;
+    border: 3px solid #fff;
+    border-radius: 16px;
+    background: #faa7ad;
+}
+
+.hero__img-right {
+    position: absolute;
+    bottom: 0;
+}
+
+.hero__list {
+    position: relative;
+    top: -62px;
+    left: 129px;
+    padding: 18px 14px;
+    width: 250px;
+    height: 156px;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.hero-list-item {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-list-item__thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.hero-list-item__separate {
+    margin: 20px 0;
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    border-radius: 99px;
+}
+
+.hero-list-item__heading {
+    padding-top: 2px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #181e52;
+}
+
+.hero-list-item__skeleton {
+    position: relative;
+    width: 118px;
+    height: 4px;
+    top: 7px;
+    border-radius: 99px;
+    opacity: 0.08;
+    background: #000958;
+}
+
+.hero-list-item__skeleton::after {
+    position: absolute;
+    top: 10px;
+    content: "";
+    width: 39px;
+    height: 4px;
+    border-radius: 99px;
+    background: #000958;
+}
+
+.hero-content__heading {
+    font-weight: 800;
+    font-size: 6.6rem;
+    line-height: 1.15;
+    color: #000958;
+}
+
+.hero-content__desc {
+    width: 391px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #656689;
+}
+
+.hero-content__row {
+    margin-top: 38px;
+}
+
+.hero-content__cta {
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero-content__cta:hover {
+    transform: translateY(-5px);
+    background: #ff5b2e;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}

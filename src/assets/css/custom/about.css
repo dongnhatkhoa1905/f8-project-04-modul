@@ -1,0 +1,249 @@
+/* about */
+
+.about__label {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+}
+
+.about__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 164px;
+    align-items: center;
+    margin-top: 53px;
+}
+.about__heading {
+    width: 446px;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.2;
+    color: #000958;
+}
+
+.about__desc {
+    width: 431px;
+    margin-top: 24px;
+    font-size: 1.6rem;
+    line-height: 1.875;
+    color: #656689;
+}
+
+.about__checklist {
+    margin-top: 54px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    gap: 36px;
+}
+
+.about__check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #48496a;
+}
+
+.about__check-item::before {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: #ff5d31;
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px -3px rgba(255, 93, 49, 0.69);
+}
+
+.about__check-item::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: 2px;
+    left: 8px;
+    width: 6px;
+    height: 13px;
+    rotate: 45deg;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.about__media {
+    position: relative;
+}
+
+.about__card {
+    position: absolute;
+    top: 165px;
+    left: -115px;
+    display: block;
+    width: 136px;
+    height: 156px;
+    background: #5bd6e2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about__card-title {
+    display: inline-block;
+    padding-top: 31px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: #fff;
+}
+
+.about__card-desc {
+    width: 83px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 1.42;
+    color: #c6f4f9;
+}
+
+.about__card-decorator {
+    top: 0;
+}
+
+.about__card-decorator {
+    position: relative;
+    top: -156px;
+    right: -62px;
+}
+
+.about__img-wrap {
+    position: relative;
+    display: flex;
+}
+
+.about__img-wrap::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 494px;
+    height: 326px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    border-radius: 16px;
+    z-index: -1;
+    bottom: 0;
+}
+
+.about__media-decorator {
+    position: absolute;
+    top: 149px;
+    right: 40px;
+    z-index: -1;
+}
+
+.about__media-top {
+    margin-left: 108px;
+}
+
+.about__media-bottom {
+    width: 458px;
+    height: 500px;
+    background: #5bd6e2;
+    box-shadow: 0px 3px 63px 0px rgba(153, 183, 208, 0.59);
+}
+
+.about__decor-img {
+    position: absolute;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 3px 63px 0px rgba(153, 183, 208, 0.59);
+}
+
+.about__img-wrap-bottom {
+    position: relative;
+}
+
+.about__decor-img:nth-child(6) {
+    position: absolute;
+    top: 435px;
+    left: 377px;
+}
+
+.about__decor-img:nth-child(1) {
+    position: absolute;
+    top: 13px;
+    right: 65px;
+}
+
+.about__decor-img:nth-child(2) {
+    position: absolute;
+    top: -16px;
+    right: 16px;
+}
+
+.about__decor-img:nth-child(3) {
+    position: absolute;
+    top: 33px;
+    right: -21px;
+}
+
+.about__decor-img:nth-child(4) {
+    position: absolute;
+    top: 270px;
+    right: -10px;
+}
+
+.about__decor-img:nth-child(5) {
+    position: absolute;
+    top: 336px;
+    right: 19px;
+}
+
+/* about content 2 */
+
+.about__content-list {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.about__content-list::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 557px;
+    bottom: -10px;
+    background: #ccc;
+}
+
+.about__content-list::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 95px;
+    background: #ff5b2e;
+    opacity: 0.76;
+    bottom: -10px;
+}
+
+.about__content-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.about__content-item-name {
+    margin-left: 10px;
+}
+
+.about__desc-item {
+    margin-top: 32px;
+}
+
+.about__content-link {
+    display: inline-block;
+    margin-top: 38px;
+}
+
+.about__content-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #ff5d31;
+}
